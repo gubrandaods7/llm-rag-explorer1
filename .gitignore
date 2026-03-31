@@ -1,0 +1,21 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment secrets
+.env
+
+# Local vector database artifacts
+vectorstore/
+
+# Uploaded PDFs (keep only folder structure)
+data/pdfs/*.pdf
+!data/pdfs/.gitkeep
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
